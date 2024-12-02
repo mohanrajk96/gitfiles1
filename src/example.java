@@ -15,7 +15,7 @@ public class example {
 			res=res+r*r*r;
 			n=n/10;
 		}
-		//System.out.println(res);
+		System.out.println(res);
 		if(res==m)
 		{
 			System.out.println(m+ " is armstrong");
