@@ -12,7 +12,7 @@ public class programs {
 		{
 			if(i%2==0)
 			{
-				System.out.print(" " +i);
+				System.out.println(" " +i);
 				
 			}
 		}
