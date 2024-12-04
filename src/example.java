@@ -6,8 +6,7 @@ public class example {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number:");
 		int n = sc.nextInt();
-		//1221
-		//amstrong
+		
 		int m =n, r=0,res=0;
 		while (n >0)
 		{
