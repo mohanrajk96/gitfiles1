@@ -7,7 +7,6 @@ public class programs {
 		Scanner sc = new Scanner(System.in);
 		System.out.print ("Enter No: ");
 		int n = sc.nextInt();
-		//int n=30;
 		for (int i=1; i<=n; i++)
 		{
 			if(i%2==0)
