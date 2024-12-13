@@ -1,21 +1,19 @@
-import java.util.Scanner;
-
 public class programs {
 
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner(System.in);
-		System.out.print ("Enter No: ");
-		int n = sc.nextInt();
-		for (int i=1; i<=n; i++)
+		int [] a= { 5,4,3,5};
+		int s =0, c=0;
+		for (int i=0; i<a.length; i++)  //1st method
 		{
-			if(i%2==0)
-			{
-				System.out.println(" " +i);
-				
-			}
+			s=s+a[i];
 		}
-	}
-	
+		System.out.println("1st method " + s);
+		
+		for (int v:a) //2nd method for each
+		{
+			c=c+v;
+		} 	System.out.println("2nd method " + c);
+	}	
 	
 }
